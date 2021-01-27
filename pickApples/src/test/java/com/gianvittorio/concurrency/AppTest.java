@@ -1,4 +1,4 @@
-package com.gianvittorio.pickApples;
+package com.gianvittorio.concurrency;
 
 import static org.junit.Assert.assertTrue;
 

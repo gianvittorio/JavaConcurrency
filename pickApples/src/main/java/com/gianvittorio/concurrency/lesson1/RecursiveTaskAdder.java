@@ -1,4 +1,4 @@
-package com.gianvittorio.pickApples.challenge;
+package com.gianvittorio.concurrency.lesson1;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;

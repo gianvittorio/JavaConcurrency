@@ -1,7 +1,6 @@
-package com.gianvittorio.pickApples.challenge;
+package com.gianvittorio.concurrency.lesson1;
 
 import java.util.concurrent.ForkJoinPool;
-import java.util.stream.IntStream;
 
 public class Challenge {
     public static void main(String[] args) {

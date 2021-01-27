@@ -1,4 +1,4 @@
-package com.gianvittorio.pickApples;
+package com.gianvittorio.concurrency.lesson1;
 
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;

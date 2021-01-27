@@ -1,11 +1,10 @@
-package com.gianvittorio.pickApples.challenge;
+package com.gianvittorio.concurrency.lesson1;
 
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.Future;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 

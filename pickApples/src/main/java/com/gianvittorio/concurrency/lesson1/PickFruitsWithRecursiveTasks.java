@@ -1,4 +1,4 @@
-package com.gianvittorio.pickApples;
+package com.gianvittorio.concurrency.lesson1;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
@@ -36,6 +36,8 @@ public class PickFruitsWithRecursiveTasks {
                     .sum();
         }
 
+        private class MyException extends Exception {}
+
         @Override
         protected Integer compute() {
             if (endInclusive - startInclusive < taskThreshold) {
@@ -48,6 +50,7 @@ public class PickFruitsWithRecursiveTasks {
             PickFruitTask rightSum = new PickFruitTask(appleTrees, middlePoint + 1, endInclusive);
 
             rightSum.fork();
+
             return  leftSum.compute() + rightSum.join();
         }
     }
